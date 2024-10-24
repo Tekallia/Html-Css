@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <button onclick="
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">Show Quality</button>
+
+  <button onclick="
+    CartQuantity ++
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">Add to Cart</button>
+
+  <button onclick="
+    CartQuantity += 2
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">+2</button>
+
+  <button onclick="
+    CartQuantity += 3
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">+3</button>
+
+  <button onclick="
+    CartQuantity += 4
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">+4</button>
+
+  <button onclick="
+    CartQuantity += 5
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">+5</button>
+
+  <button onclick="
+    CartQuantity -= 1
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">Romove from Cart</button>
+
+  <button onclick="
+    CartQuantity -= 2
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">-2</button>
+
+  <button onclick="
+    CartQuantity -= 3
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">-3</button>
+
+
+
+  <button onclick="
+    CartQuantity =0
+    console.log('Cart was reset.');
+    console.log(`Cart quality: ${CartQuantity}`);
+  ">Reset Cart</button>
+
+
+  <script>
+    let CartQuantity = 0;
+
+  </script>
+
+</body>
+</html>
